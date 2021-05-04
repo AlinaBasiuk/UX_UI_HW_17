@@ -1,0 +1,170 @@
+#navBar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    word-spacing: 20px;
+    padding-top: 20px;
+    font-weight: uppercase;
+}
+
+.section {
+    width: 100%;
+    min-height: 80vh;
+}
+
+.container {
+    width: 90%;
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+}
+.content-section {
+    float: right;
+    width: 45%;
+    padding-top: 25px;
+}
+
+.image-section {
+    float: left;
+    width: 40%;
+    margin-left: 10%;
+   
+}
+
+.image-section img{
+    width: 90%;
+    height: auto;
+}
+
+
+.container-section, .title {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;   
+}
+
+h2 {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    word-spacing: 5px;
+    font-weight: regular;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+  }
+   
+.profile-buttons{
+    padding-top: 20px;    
+}
+
+.button, .resume-button {
+    font-family: 'Montserrate',  sans-serif;
+    font-size: 16px;
+    background: white;
+    border: solid;
+    border-color: black;
+    padding: 10px 15px;   
+}
+
+.button, .gmail-button {
+    font-family: 'Montserrate',  sans-serif;
+    font-size: 16px;
+    background: white;
+    border: solid;
+    border-color: black;
+    padding: 10px 20px;   
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.button, .linkedin-button {
+    font-family: 'Montserrate',  sans-serif;
+    font-size: 16px;
+    background: white;
+    border: solid;
+    border-color: black;
+    padding: 10px 13px;   
+}
+
+
+body {
+    font-family: 'montserrat', sans-serif;
+  }
+
+  
+  .UXcontainer {
+    max-width: 1125px;
+    margin: 0 auto;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  
+  .gallery-item {
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+   
+    text-decoration: none;
+    
+  }
+  
+  .gallery-item img {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+    
+    
+  }
+  
+  .text-wrapper {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+  }
+  
+  .text-wrapper:hover {
+    transition: all 0.8s ease;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 1;
+  }
+  
+  .name {
+    font-size: 1.5em;
+  }
+  
+  
+
+  @media only screen and (max-width: 1024px) {
+    .text-wrapper {
+      opacity: 1;
+      justify-content: flex-end;
+      text-shadow: 1px 1px 1px #000;
+    }
+    .title {
+      margin-bottom: 1em;
+    }
+  }
+  
+ 
+
+.footer, .flexcontainer{
+    width: 100%;
+    position: center;
+}
+
