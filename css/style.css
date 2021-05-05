@@ -90,36 +90,42 @@ p {
     padding: 10px 13px;   
 }
 
+.devider-container {
+  display: flex;
+  justify-content: flex-end;
+  color: #737373;
+  margin-right: 450px
+
+}
 
 body {
     font-family: 'montserrat', sans-serif;
   }
 
-  
   .UXcontainer {
     max-width: 1125px;
     margin: 0 auto;
+    justify-content: center;
   }
   
   .gallery {
     display: flex;
     flex-wrap: wrap;
-    
+    justify-content: center;
   }
   
   .gallery-item {
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 450px;
     margin: 10px;
-   
     text-decoration: none;
     
   }
   
   .gallery-item img {
     position: absolute;
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 450px;
     margin: 10px;
     
     
@@ -127,8 +133,8 @@ body {
   
   .text-wrapper {
     position: relative;
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 450px;
     margin: 10px;
     display: flex;
     flex-direction: column;
